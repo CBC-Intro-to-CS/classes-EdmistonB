@@ -7,7 +7,7 @@ class User:
 
 
     def describe_user(self):
-        print(f"User Profile:")
+        print(f"User Profile: ")
         print(f"Name: {self.first_name} {self.last_name}")
         print(f"Age: {self.age}")
         print(f"Location: {self.where_they_live}")
@@ -30,3 +30,7 @@ user2.greet_user()
 
 user3.describe_user()
 user3.greet_user()
+
+"""
+
+"""
